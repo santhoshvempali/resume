@@ -2,6 +2,49 @@ body{
     margin: 0px;
     margin-top: 0px;
 }
+
+
+
+/*NAV EDIT*/
+nav
+{
+    width: 100%;
+    
+}
+nav ul
+{
+    font-size: 20px;
+    background-color: rgba(0,0,0,0.5);
+    text-align: center;
+    
+}
+
+nav ul li
+{
+    display: inline-block;
+    padding: 20px;
+}
+nav ul li a
+{
+    color: white;
+    text-decoration: none;
+    padding: 5px 10px;
+    font-family: "Roboto",sans-serif;
+    font-size: 15px;
+    
+}
+.active
+{
+    color: white;
+    background-color: #e91E63;
+}
+nav ul li:hover
+{
+    color: red;
+    background-color: #e91E63;
+    transition: all 0.5s ease-in;
+}
+
 /* Body header*/
 header{
     height: 60vh;
